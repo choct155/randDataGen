@@ -1,0 +1,6 @@
+#FileLock
+#Tue Jul 02 17:14:38 EDT 2019
+hostName=pop-os.localdomain
+id=16bb48a1b6bf47a09570928fd7e0057263f1194fed7
+method=file
+server=127.0.1.1\:37245

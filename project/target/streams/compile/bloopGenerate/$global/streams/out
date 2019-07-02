@@ -1,0 +1,4 @@
+[debug] [randdatagen-build] Classpath dependencies List()
+[debug] [randdatagen-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'randdatagen-build' to '/home/choct155/projects/randDataGen/project/.bloop/randdatagen-build.json'
+[success] Generated .bloop/randdatagen-build.json

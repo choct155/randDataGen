@@ -1,0 +1,6 @@
+[error] /home/choct155/projects/randDataGen/src/main/scala/com/stronghold/RandGen.scala:7:31: type mismatch;
+[error]  found   : Option[Int]
+[error]  required: Int
+[error]   val x: Int = arbitrary[Int].sample
+[error]                               ^
+[error] one error found
