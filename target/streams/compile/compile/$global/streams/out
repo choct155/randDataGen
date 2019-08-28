@@ -1,6 +1,4 @@
-[error] /home/choct155/projects/randDataGen/src/main/scala/com/stronghold/RandGen.scala:7:31: type mismatch;
-[error]  found   : Option[Int]
-[error]  required: Int
-[error]   val x: Int = arbitrary[Int].sample
-[error]                               ^
+[error] /home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/Sandbox.scala:6:24: not found: value genPets
+[error]   val pets: Seq[Pet] = genPets(10)
+[error]                        ^
 [error] one error found

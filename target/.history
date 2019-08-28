@@ -4,3 +4,9 @@ run
 exit
 ~compile
 exit
+~compile
+compile
+run
+compile
+run
+exit

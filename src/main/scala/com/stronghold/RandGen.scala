@@ -6,6 +6,9 @@ import org.apache.spark.sql._
 
 object RandGen {
 
-  implicit val arbArea = ???
+  def genSomeValue[A](gen: Gen[A]): A = gen.sample match {
+    case Some(v) => v
+    case None => genSomeValue[A](gen)
+  }
   
 }

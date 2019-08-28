@@ -1,13 +1,39 @@
-[info] Packaging /home/choct155/projects/randDataGen/target/scala-2.12/random-data-generator_2.12-0.1.0-SNAPSHOT.jar ...
+[info] Packaging /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/random-data-generator_2.12-0.1.0-SNAPSHOT.jar ...
 [debug] Input file mappings:
-[debug] 	com/stronghold
-[debug] 	  /home/choct155/projects/randDataGen/target/scala-2.12/classes/com/stronghold
-[debug] 	com/stronghold/Sandbox.class
-[debug] 	  /home/choct155/projects/randDataGen/target/scala-2.12/classes/com/stronghold/Sandbox.class
-[debug] 	com/stronghold/Sandbox$delayedInit$body.class
-[debug] 	  /home/choct155/projects/randDataGen/target/scala-2.12/classes/com/stronghold/Sandbox$delayedInit$body.class
-[debug] 	com
-[debug] 	  /home/choct155/projects/randDataGen/target/scala-2.12/classes/com
+[debug] 	com/stronghold/AgeField$.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/AgeField$.class
+[debug] 	com/stronghold/Pet.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/Pet.class
+[debug] 	com/stronghold/Pet$.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/Pet$.class
+[debug] 	com/stronghold/RandGen.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/RandGen.class
+[debug] 	com/stronghold/Name.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/Name.class
 [debug] 	com/stronghold/Sandbox$.class
-[debug] 	  /home/choct155/projects/randDataGen/target/scala-2.12/classes/com/stronghold/Sandbox$.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/Sandbox$.class
+[debug] 	com/stronghold/Age$.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/Age$.class
+[debug] 	com/stronghold/Sandbox$delayedInit$body.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/Sandbox$delayedInit$body.class
+[debug] 	com/stronghold/DataField.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/DataField.class
+[debug] 	com/stronghold
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold
+[debug] 	com/stronghold/NameField.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/NameField.class
+[debug] 	com
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com
+[debug] 	com/stronghold/RandGen$.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/RandGen$.class
+[debug] 	com/stronghold/AgeField.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/AgeField.class
+[debug] 	com/stronghold/Name$.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/Name$.class
+[debug] 	com/stronghold/Sandbox.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/Sandbox.class
+[debug] 	com/stronghold/Age.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/Age.class
+[debug] 	com/stronghold/NameField$.class
+[debug] 	  /home/choct155/projects/sparkSandbox/randDataGen/target/scala-2.12/classes/com/stronghold/NameField$.class
 [info] Done packaging.
