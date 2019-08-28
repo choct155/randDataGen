@@ -1,4 +1,6 @@
-[error] /home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/Sandbox.scala:6:24: not found: value genPets
-[error]   val pets: Seq[Pet] = genPets(10)
-[error]                        ^
+[error] /home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala:21:52: type mismatch;
+[error]  found   : A
+[error]  required: com.stronghold.Age
+[error]     Gen.choose(min, max).map{ i: Int => newInstance(Option(i)) }
+[error]                                                    ^
 [error] one error found

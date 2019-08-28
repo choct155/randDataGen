@@ -5170,3 +5170,779 @@ something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/sr
 something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/Sandbox.scala in Seq[com.stronghold.Pet]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/Sandbox.scala, 110, 110, 118)
 something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/Sandbox.scala in Seq[com.stronghold.Pet]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/Sandbox.scala, 110, 110, 118)
 something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/Sandbox.scala in Seq[com.stronghold.Pet]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/Sandbox.scala, 110, 110, 118)
+INFO  time: initialize in 0.21s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp5282061476649161436/-1pynushf6tjqj.socket'
+INFO  skipping build import with status 'Installed'
+INFO  Selected port 5031
+Aug 28, 2019 1:07:39 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.6.5.Final
+Aug 28, 2019 1:07:39 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.6.5.Final
+Aug 28, 2019 1:07:39 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.0.Beta2
+INFO  Started Metals http server at http://127.0.0.1:5031
+WARN  no build target: /home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala
+INFO  no build target: using presentation compiler with only scala-library
+The server is listening for incoming connections at local:///tmp/bsp5282061476649161436/-1pynushf6tjqj.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp5282061476649161436/-1pynushf6tjqj.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/choct155/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 2.15s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.24s
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 271, 271, 282)
+INFO  time: indexed workspace in 0.68s
+WARN  no build target: /home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 321, 321, 332)
+Aug 28, 2019 1:08:03 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:08:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$$anon$1.factoryMeth(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:231)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:230)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:58)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:294)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:461)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:460)
+	at scala.meta.internal.pc.MetalsGlobal$$anon$1.pluginsEnterSym(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:268)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1946)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1941)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1941)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2003)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1896)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5647)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5356)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5649)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:448)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1225)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:356)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+
+Aug 28, 2019 1:08:04 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:08:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:08:04 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:08:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:08:04 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:08:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:08:05 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:08:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:08:05 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:08:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+Aug 28, 2019 1:08:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:08:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 271, 271, 282)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 215, 215, 225)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 215, 215, 225)
+Aug 28, 2019 1:08:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/log4j/jmx/,Agent.class)
+Aug 28, 2019 1:08:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/impl/cookie/,BasicMaxAgeHandler.class)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+Aug 28, 2019 1:08:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/glassfish/jersey/jaxb/internal/,XmlRootObjectJaxbProvider$General.class)
+Aug 28, 2019 1:08:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/glassfish/jersey/jaxb/internal/,XmlRootElementJaxbProvider$General.class)
+Aug 28, 2019 1:08:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sf/cglib/reflect/,FastClass$Generator.class)
+Aug 28, 2019 1:08:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sf/cglib/reflect/,MethodDelegate$Generator.class)
+Aug 28, 2019 1:08:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sf/cglib/reflect/,MulticastDelegate$Generator.class)
+Aug 28, 2019 1:08:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sf/cglib/reflect/,ConstructorDelegate$Generator.class)
+Aug 28, 2019 1:08:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/reflect/internal/transform/,Erasure$GenericArray$.class)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+Aug 28, 2019 1:08:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Aug 28, 2019 1:08:57 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(avro/shaded/com/google/common/primitives/,Ints.class)
+Aug 28, 2019 1:08:57 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/antlr/v4/runtime/misc/,IntSet.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,Option.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,Options.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,Options.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/common/base/,Optional.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/auth/,AuthOption.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,OptionGroup.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,ReadOptions.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/univocity/parsers/annotations/,EnumOptions.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/sql/execution/datasources/text/,TextOptions.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/sql/execution/datasources/text/,TextOptions$.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,WriteOptions.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/codehaus/janino/,JaninoOption.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/launcher/,SparkSubmitCommandBuilder$OptionParser.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,OptionBuilder.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/log4j/spi/,OptionHandler.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/httpclient/methods/,OptionsMethod.class)
+Aug 28, 2019 1:09:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/ivy/plugins/parser/xml/,UpdateOptions.class)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+Aug 28, 2019 1:09:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+Aug 28, 2019 1:09:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,Option.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,Options.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,Options.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/common/base/,Optional.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/auth/,AuthOption.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,OptionGroup.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,ReadOptions.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/univocity/parsers/annotations/,EnumOptions.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/sql/execution/datasources/text/,TextOptions.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/sql/execution/datasources/text/,TextOptions$.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,WriteOptions.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/codehaus/janino/,JaninoOption.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/launcher/,SparkSubmitCommandBuilder$OptionParser.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,OptionBuilder.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/log4j/spi/,OptionHandler.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/httpclient/methods/,OptionsMethod.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/ivy/plugins/parser/xml/,UpdateOptions.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,Option.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,Options.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,Options.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/common/base/,Optional.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/auth/,AuthOption.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,OptionGroup.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,ReadOptions.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/univocity/parsers/annotations/,EnumOptions.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/sql/execution/datasources/text/,TextOptions.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/sql/execution/datasources/text/,TextOptions$.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,WriteOptions.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/codehaus/janino/,JaninoOption.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/launcher/,SparkSubmitCommandBuilder$OptionParser.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,OptionBuilder.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/log4j/spi/,OptionHandler.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/httpclient/methods/,OptionsMethod.class)
+Aug 28, 2019 1:12:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/ivy/plugins/parser/xml/,UpdateOptions.class)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+Aug 28, 2019 1:12:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[<error>]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 582)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[<error>]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 448)
+Aug 28, 2019 1:12:12 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(avro/shaded/com/google/common/primitives/,Ints.class)
+Aug 28, 2019 1:12:12 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/antlr/v4/runtime/misc/,IntSet.class)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+Aug 28, 2019 1:12:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+Aug 28, 2019 1:12:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => <error>RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 444, 588)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => <error>RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 444, 589)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => <error>RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 444, 455)
+Aug 28, 2019 1:12:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/log4j/jmx/,Agent.class)
+Aug 28, 2019 1:12:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/impl/cookie/,BasicMaxAgeHandler.class)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => <error>RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 444, 450)
+Aug 28, 2019 1:12:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => <error>RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 444, 450)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => <error>RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 444, 450)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => <error>RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 444, 450)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 560, 560, 570)
+Aug 28, 2019 1:13:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Aug 28, 2019 1:13:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Aug 28, 2019 1:14:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 562, 562, 572)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 562, 562, 572)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 562, 562, 572)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 562, 562, 572)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 562, 562, 572)
+WARN  no build target: /home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/Age.scala
+Aug 28, 2019 1:14:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Aug 28, 2019 1:14:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 562, 562, 572)
+Aug 28, 2019 1:15:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 432, 443)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => <error>RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 432, 444, 450)
+Aug 28, 2019 1:15:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+Aug 28, 2019 1:15:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 398, 398, 408)
+Aug 28, 2019 1:15:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:15:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:15:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:15:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:15:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:15:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:15:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:15:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 215, 215, 225)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 215, 215, 225)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 397, 397, 407)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 397, 397, 407)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 397, 397, 407)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 397, 397, 407)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 397, 397, 407)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 397, 397, 407)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 397, 397, 407)
+Aug 28, 2019 1:16:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Aug 28, 2019 1:16:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Aug 28, 2019 1:16:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Aug 28, 2019 1:16:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 397, 397, 407)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 503, 503, 514)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 503, 503, 514)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 397, 397, 407)
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 28, 2019 1:17:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,Option.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,Options.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,Options.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/common/base/,Optional.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/auth/,AuthOption.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,OptionGroup.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,ReadOptions.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/univocity/parsers/annotations/,EnumOptions.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/sql/execution/datasources/text/,TextOptions.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/sql/execution/datasources/text/,TextOptions$.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,WriteOptions.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/codehaus/janino/,JaninoOption.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/launcher/,SparkSubmitCommandBuilder$OptionParser.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,OptionBuilder.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/log4j/spi/,OptionHandler.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/httpclient/methods/,OptionsMethod.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/ivy/plugins/parser/xml/,UpdateOptions.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,Option.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,Options.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,Options.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/common/base/,Optional.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/auth/,AuthOption.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,OptionGroup.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,ReadOptions.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/univocity/parsers/annotations/,EnumOptions.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/sql/execution/datasources/text/,TextOptions.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/sql/execution/datasources/text/,TextOptions$.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/iq80/leveldb/,WriteOptions.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/codehaus/janino/,JaninoOption.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/spark/launcher/,SparkSubmitCommandBuilder$OptionParser.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/cli/,OptionBuilder.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/log4j/spi/,OptionHandler.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/httpclient/methods/,OptionsMethod.class)
+Aug 28, 2019 1:18:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/ivy/plugins/parser/xml/,UpdateOptions.class)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[<error>]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 693)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[<error>]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 452)
+Aug 28, 2019 1:18:03 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(avro/shaded/com/google/common/primitives/,Ints.class)
+Aug 28, 2019 1:18:03 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/antlr/v4/runtime/misc/,IntSet.class)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => <error>RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 448, 699)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => <error>RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 448, 700)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => ARangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 448, 452)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => ARangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 448, 452)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 498, 498, 509)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 548, 548, 559)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 548, 548, 559)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 498, 498, 509)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 548, 548, 559)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 548, 548, 559)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 498, 498, 509)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => ARangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 448, 452)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => ARangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 448, 452)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => ARangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 448, 452)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => ARangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 448, 452)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in com.stronghold.AgeField[A]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 402, 402, 412)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int]RangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 436, 447)
+something's wrong: no file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala in Option[Int] => ARangePosition(file:///home/choct155/projects/sparkSandbox/randDataGen/src/main/scala/com/stronghold/AgeField.scala, 436, 448, 452)
